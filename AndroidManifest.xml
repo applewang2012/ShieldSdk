@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.cloudwalk.libproject"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23"/>
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".LiveStartActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LiveActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LiveActivity2"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LiveResultActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".BaseActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".BestFaceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RealTimeFaceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TemplatedActivity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+</manifest>
+
